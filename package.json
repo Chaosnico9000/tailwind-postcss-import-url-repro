@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-postcss-optimize-url-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:no-optimize": "TW_OPTIMIZE=false vite build",
+    "build:tailwind-vite": "vite build --config vite.tailwind-vite.config.mjs"
+  },
+  "dependencies": {
+    "example-font": "file:./example-font"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@tailwindcss/vite": "4.3.3",
+    "tailwindcss": "4.3.3",
+    "vite": "8.3.4"
+  }
+}

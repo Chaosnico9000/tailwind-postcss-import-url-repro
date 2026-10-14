@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "example-font/fonts.css";
+
+body {
+  font-family: "Example Sans", sans-serif;
+}
